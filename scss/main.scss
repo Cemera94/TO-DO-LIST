@@ -1,0 +1,41 @@
+.container{
+    background-color: red;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h1{
+        text-align: center;
+        color: #fff;
+    }
+
+    .input_field{
+        height: 30px;
+        display: flex;
+
+        #item{
+            width: 70%;
+            height: 100%;
+            padding: 0;
+            border: none;
+            padding-left: 10px;
+        }
+    
+        #add{
+            width: 30%;
+            height: 100%;
+            border: none;
+        }
+    }
+
+    .new_items{
+        background-color: lightgray;
+
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    
+}
